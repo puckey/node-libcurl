@@ -20,7 +20,7 @@
   },
   "main": "./index.js",
   "scripts": {
-    "install": "node-pre-gyp install --fallback-to-build",
+    "install": "node-pre-gyp install --build-from-source",
     "test": "mocha test --reporter spec --timeout 5000",
     "docs": "jsdoc2md lib/*.js > api.md",
     "postinstall": "node scripts/postinstall",
